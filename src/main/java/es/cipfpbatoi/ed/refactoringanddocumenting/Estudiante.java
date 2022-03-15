@@ -1,6 +1,6 @@
 package es.cipfpbatoi.ed.refactoringanddocumenting;
 
-public class Estudiante{
+public class Estudiante implements compareTo{
 	private static final int MAJORIA_DE_EDAD = 18;
 	
 	int edad;
@@ -12,6 +12,7 @@ public class Estudiante{
 		this.nom = nom;
 	}
 
+	@Override
 	public int compararAmb( Estudiante estudiant) {
 		
 		if (this.edad == estudiant.edad){

@@ -1,9 +1,11 @@
 package es.cipfpbatoi.ed.refactoringanddocumenting;
 
 /**
- * Hello world!
+ * 
+ * @author Germán
  *
  */
+
 public class App 
 {	
     public static void main( String[] args )
