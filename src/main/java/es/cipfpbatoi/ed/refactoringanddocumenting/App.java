@@ -15,12 +15,12 @@ public class App
     {
         System.out.println( "Bienvenido al Programa" );
         
-        Estudiante es = new Estudiante(10,"pepe");
+        Estudiante estudiante = new Estudiante(10,"pepe");
         
-        if ( esMajorDeEdad (es.e) ) {
-        	System.out.println("El estudiante " + es.n + " es mayor de edad");
+        if ( esMajorDeEdad (estudiante.edad) ) {
+        	System.out.println("El estudiante " + estudiante.nom + " es mayor de edad");
         } else {
-        	System.out.println("El estudiante " + es.n + " es menor de edad");
+        	System.out.println("El estudiante " + estudiante.nom + " es menor de edad");
         }
         
     }
