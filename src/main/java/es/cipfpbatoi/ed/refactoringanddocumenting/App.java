@@ -6,9 +6,11 @@ package es.cipfpbatoi.ed.refactoringanddocumenting;
  */
 public class App 
 {
+	private static final int MAJORIA_DE_EDAD = 18;
+
 	public static boolean esMajorDeEdad(int edad)
 	{
-		return edad >= 18;
+		return edad >= MAJORIA_DE_EDAD;
 	}
 	
     public static void main( String[] args )
